@@ -1,0 +1,280 @@
+{
+    "operating systems": {
+        "Microsoft Windows": {
+            "versions": {
+                "Windows31": {
+                    "image": "windows_31",
+                    "name": "Windows 3.1"
+                },
+                "Windows95": {
+                    "image": "windows_95",
+                    "name": "Windows 95"
+                },
+                "Windows98": {
+                    "image": "windows_98",
+                    "name": "Windows 98"
+                },
+                "WindowsME": {
+                    "image": "windows_me",
+                    "name": "Windows ME"
+                },
+                "WindowsNT3x": {
+                    "image": "windows_nt_3x",
+                    "name": "Windows NT 3.x"
+                },
+                "WindowsNT4": {
+                    "image": "windows_nt_4",
+                    "name": "Windows NT 4"
+                },
+                "Windows2000": {
+                    "image": "windows_2000",
+                    "name": "Windows 2000"
+                },
+                "WindowsXP": {
+                    "image": "windows_xp",
+                    "name": "Windows XP"
+                },
+                "Windows2003": {
+                    "image": "windows_2003",
+                    "name": "Windows 2003"
+                },
+                "Windows2008": {
+                    "image": "windows_2008",
+                    "name": "Windows 2008"
+                },
+                "WindowsVista": {
+                    "image": "windows_vista",
+                    "name": "Windows Vista"
+                },
+                "Windows7": {
+                    "image": "windows_7",
+                    "name": "Windows 7"
+                },
+                "Windows8": {
+                    "image": "windows_8",
+                    "name": "Windows 8"
+                },
+                "Windows81": {
+                    "image": "windows_81",
+                    "name": "Windows 8.1"
+                },
+                "Windows2012": {
+                    "image": "windows_2012",
+                    "name": "Windows 2012"
+                },
+                "Windows10": {
+                    "image": "windows_10",
+                    "name": "Windows 10"
+                },
+                "Windows2016": {
+                    "image": "windows_2016",
+                    "name": "Windows 2016"
+                },
+                "Windows2019": {
+                    "image": "windows_2019",
+                    "name": "Windows 2019"
+                },
+                "WindowsNT": {
+                    "image": "other_windows",
+                    "name": "Other Windows"
+                }
+            }
+        },
+        "Linux": {
+            "versions": {
+                "Linux22": {
+                    "image": "linux_22",
+                    "name": "Linux 2.2"
+                },
+                "Linux24": {
+                    "image": "linux_24",
+                    "name": "Linux 2.4"
+                },
+                "Linux26": {
+                    "image": "linux_26",
+                    "name": "Linux 2.6 / 3.x / 4.x"
+                },
+                "ArchLinux": {
+                    "image": "arch_linux",
+                    "name": "Arch Linux"
+                },
+                "Debian": {
+                    "image": "debian",
+                    "name": "Debian"
+                },
+                "Fedora": {
+                    "image": "fedora",
+                    "name": "Fedora"
+                },
+                "Gentoo": {
+                    "image": "gentoo",
+                    "name": "Gentoo"
+                },
+                "Mandriva": {
+                    "image": "mandriva",
+                    "name": "Mandriva"
+                },
+                "Oracle": {
+                    "image": "oracle",
+                    "name": "Oracle"
+                },
+                "RedHat": {
+                    "image": "red_hat",
+                    "name": "Red Hat"
+                },
+                "OpenSUSE": {
+                    "image": "opensuse",
+                    "name": "openSUSE"
+                },
+                "Turbolinux": {
+                    "image": "turbolinux",
+                    "name": "Turbolinux"
+                },
+                "Ubuntu": {
+                    "image": "ubuntu",
+                    "name": "Ubuntu"
+                },
+                "Xandros": {
+                    "image": "xandros",
+                    "name": "Xandros"
+                },
+                "Linux": {
+                    "image": "other_linux",
+                    "name": "Other Linux"
+                }
+            }
+        },
+        "BSD": {
+            "versions": {
+                "FreeBSD": {
+                    "image": "freebsd",
+                    "name": "FreeBSD"
+                },
+                "OpenBSD": {
+                    "image": "openbsd",
+                    "name": "OpenBSD"
+                },
+                "NetBSD": {
+                    "image": "netbsd",
+                    "name": "NetBSD"
+                }
+            }
+        },
+        "Solaris": {
+            "versions": {
+                "Solaris": {
+                    "image": "solaris",
+                    "name": "Oracle Solaris 10 5/09 and earlier"
+                },
+                "OpenSolaris": {
+                    "image": "open_solaris",
+                    "name": "Oracle Solaris 10 10/09 and later"
+                },
+                "Solaris11": {
+                    "image": "solaris_11",
+                    "name": "Oracle Solaris 11"
+                }
+            }
+        },
+        "IBM OS/2": {
+            "versions": {
+                "OS2Warp3": {
+                    "image": "os2_warp_3",
+                    "name": "OS/2 Warp 3"
+                },
+                "OS2Warp4": {
+                    "image": "os2_warp_4",
+                    "name": "OS/2 Warp 4"
+                },
+                "OS2Warp45": {
+                    "image": "os2_warp_45",
+                    "name": "OS/2 Warp 4.5"
+                },
+                "OS2eCS": {
+                    "image": "os2_ecs",
+                    "name": "eComStation"
+                },
+                "OS21x": {
+                    "image": "os2_1x",
+                    "name": "OS/2 1.x"
+                },
+                "OS2": {
+                    "image": "other_os2",
+                    "name": "Other OS/2"
+                }
+            }
+        },
+        "Mac OS X": {
+            "versions": {
+                "MacOS": {
+                    "image": "mac_os",
+                    "name": "Mac OS X"
+                },
+                "MacOS106": {
+                    "image": "mac_os_106",
+                    "name": "Mac OS X 10.6 Snow Leopard"
+                },
+                "MacOS107": {
+                    "image": "mac_os_107",
+                    "name": "Mac OS X 10.7 Lion"
+                },
+                "MacOS108": {
+                    "image": "mac_os_108",
+                    "name": "Mac OS X 10.8 Mountain Lion"
+                },
+                "MacOS109": {
+                    "image": "mac_os_109",
+                    "name": "Mac OS X 10.9 Mavericks"
+                },
+                "MacOS1010": {
+                    "image": "mac_os_1010",
+                    "name": "Mac OS X 10.10 Yosemite"
+                },
+                "MacOS1011": {
+                    "image": "mac_os_1011",
+                    "name": "Mac OS X 10.11 El Capitan"
+                },
+                "MacOS1012": {
+                    "image": "mac_os_1012",
+                    "name": "macOS 10.12 Sierra"
+                },
+                "MacOS1013": {
+                    "image": "mac_os_1013",
+                    "name": "macOS 10.13 High Sierra"
+                }
+            }
+        },
+        "Other": {
+            "versions": {
+                "DOS": {
+                    "image": "dos",
+                    "name": "DOS"
+                },
+                "Netware": {
+                    "image": "netware",
+                    "name": "NetWare"
+                },
+                "L4": {
+                    "image": "l4",
+                    "name": "L4"
+                },
+                "QNX": {
+                    "image": "qnx",
+                    "name": "QNX"
+                },
+                "JRockitVE": {
+                    "image": "jrockitve",
+                    "name": "JRockitVE"
+                },
+                "VBoxBS": {
+                    "image": "vbox_bs",
+                    "name": "VirtualBox Bootsector Test"
+                },
+                "Unknown": {
+                    "image": "unknown",
+                    "name": "Unknown/Other"
+                }
+            }
+        }
+    }
+}
