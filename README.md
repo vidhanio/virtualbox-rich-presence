@@ -2,7 +2,6 @@
 
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
-
 ## Installation
 
 First, clone the repository.
@@ -43,6 +42,7 @@ The [config](config.ini.example) allows you to change what is displayed on your 
 - `{version_hf}`: Name of OS version. (e.g. "Windows 8")
 - `{version_image}`: Image key of OS version. (e.g. "windows_8")
 - `{architecture}`: OS architecture (e.g. "64")
+- `{architecture_image}`: Image key of OS architecture (e.g. "64")
 - `{icon}`: Image key of VirtualBox Icon.
 
 ## Usage

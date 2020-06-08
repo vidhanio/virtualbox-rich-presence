@@ -150,6 +150,9 @@ class rich_presence:
             self.format_dict["architecture"] = vf_input[self.vf_active_vm][
                 "architecture"
             ]
+            self.format_dict["architecture_image"] = vf_input[self.vf_active_vm][
+                "architecture"
+            ]
         self.format_dict["icon"] = "icon"
         # print("-------------------------\nformat_dict\n-------------------------")
         # pprint.pprint(self.format_dict)
