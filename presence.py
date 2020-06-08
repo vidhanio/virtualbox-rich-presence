@@ -1,4 +1,4 @@
-import virtualbox, json, pprint, configparser, time, psutil
+import virtualbox, json, pprint, configparser, time, psutil, sys
 from pypresence import Presence
 
 # Machine State
@@ -44,9 +44,10 @@ class rich_presence:
         self.start_time = time.time()
 
         while True:
-            if "VirtualBox.exe" in (
-                p.name() for p in psutil.process_iter()
-            ) or "VirtualBoxVM.exe" in (p.name() for p in psutil.process_iter()):
+            if (
+                "VirtualBox.exe" in (p.name() for p in psutil.process_iter())
+                or "VirtualBoxVM.exe" in (p.name() for p in psutil.process_iter())
+            ) and (sys.platform.startswith("win32")):
                 pvars = self.presence_gen()
                 # print("-------------------------\npresence_dict\n-------------------------")
                 # pprint.pprint(pvars)
@@ -61,9 +62,24 @@ class rich_presence:
                 )
                 pprint.pprint(pvars)
                 print("--------------------")
-            else:
+            elif sys.platform.startswith("win32"):
                 print("VirtualBox is not running")
                 self.RPC.clear()
+            else:
+                pvars = self.presence_gen()
+                # print("-------------------------\npresence_dict\n-------------------------")
+                # pprint.pprint(pvars)
+                self.RPC.update(
+                    large_image=pvars["large_image"],
+                    large_text=pvars["large_text"],
+                    small_image=pvars["small_image"],
+                    small_text=pvars["small_text"],
+                    details=pvars["details"],
+                    state=pvars["state"],
+                    start=pvars["start"],
+                )
+                pprint.pprint(pvars)
+                print("--------------------")
             time.sleep(15)
 
     def vbox_to_dict(self):
