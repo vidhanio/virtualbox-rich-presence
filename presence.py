@@ -120,7 +120,7 @@ class rich_presence:
                     self.vd_machine_dict[self.vd_name]["operating system"] = key
 
         # print("-------------------------\nvbox_to_dict\n-------------------------")
-        pprint.pprint(self.vd_machine_dict)
+        # pprint.pprint(self.vd_machine_dict)
         return self.vd_machine_dict
 
     def os_to_arch(self, oa_input):
