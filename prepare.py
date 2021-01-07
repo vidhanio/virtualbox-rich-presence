@@ -12,8 +12,7 @@ all_platforms = [
     "pypresence",
     "psutil",
     "virtualbox",
-    "pypresence",
-    "vboxapi",
+    "pypresence"
 ]
 
 windows = [
