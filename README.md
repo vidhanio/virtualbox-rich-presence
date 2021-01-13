@@ -29,7 +29,7 @@ cd virtualbox-rich-presence
 ```
 
 ```cmd
-pip install -r requirements.txt
+python prepare.py
 ```
 
 ## Config
