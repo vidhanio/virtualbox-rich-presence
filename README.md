@@ -10,7 +10,7 @@ First, clone the repository.
 git clone https://www.github.com/yolodude25/virtualbox-rich-presence
 ```
 
-Then go to [the VirtualBox downloads Page](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox SDK.
+Then go to the [VirtualBox downloads Page](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox SDK.
 
 After downloading it, extract the `.zip` file and run the installer.
 
