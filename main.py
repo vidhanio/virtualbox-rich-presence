@@ -1,6 +1,7 @@
 import virtualbox, json, pprint, configparser, time, psutil, sys
 from pypresence import Presence
 
+
 class RichPresence:
     def __init__(self):
 
