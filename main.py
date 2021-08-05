@@ -1,33 +1,6 @@
 import virtualbox, json, pprint, configparser, time, psutil, sys
 from pypresence import Presence
 
-# Machine State
-## virtualbox.library.MachineState(int)
-### 1 - PoweredOff
-### 2 - Saved
-### 3 - Teleported
-### 4 - Aborted
-### 5 - FirstOnline
-### 6 - Paused
-### 7 - Stuck
-### 8 - FirstTransient
-### 9 - LiveSnapshotting
-### 10 - Starting
-### 11 - Stopping
-### 12 - Saving
-### 13 - Restoring
-### 14 - TeleportingPausedVM
-### 15 - TeleportingIn
-### 16 - FaultTolerantSyncing
-### 17 - DeletingSnapshotOnline
-### 18 - DeletingSnapshotPaused
-### 19 - LastOnline
-### 20 - RestoringSnapshot
-### 21 - DeletingSnapshot
-### 22 - SettingUp
-### 23 - LastTransient
-
-
 class RichPresence:
     def __init__(self):
 
