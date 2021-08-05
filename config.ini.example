@@ -2,13 +2,13 @@
 
 client_id=577508122629767179
 
-[In VM]
+[In Machine]
 
-large_image={version_image}
-large_text={os_hf} - {version_hf}
-small_image=
-small_text=
-details={version_hf} ({architecture}-bit)
+large_image={os version image}
+large_text={os name} - {os version name}
+small_image={architecture image}
+small_text= {architecture}-bit
+details={os version name} ({architecture}-bit)
 state=In a Virtual Machine
 
 [In Menu]
