@@ -7,12 +7,12 @@
 First, clone the repository.
 
 ```cmd
-git clone https://www.github.com/yolodude25/virtualbox-rich-presence
+git clone https://www.github.com/vidhanlol/virtualbox-rich-presence
 ```
 
 Then go to the [VirtualBox downloads page](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox SDK.
 
-After downloading it, extract the `.zip` file and run the installer.
+After downloading it, extract the `VirtualBoxSDK-x.x.x-xxxxxx.zip` file and run the installer.
 
 ```cmd
 cd installer
@@ -38,15 +38,15 @@ The [config](config.ini.example) allows you to change what is displayed on your 
 
 ### Available Values
 
-- `{os_hf}`: Name of OS. (e.g. "Microsoft Windows")
-- `{version_hf}`: Name of OS version. (e.g. "Windows 8")
-- `{version_image}`: Image key of OS version. (e.g. "windows_8")
+- `{os name}`: Name of OS. (e.g. "Microsoft Windows")
+- `{os version name}`: Name of OS version. (e.g. "Windows 8")
+- `{os version image}`: Image key of OS version. (e.g. "windows_8")
 - `{architecture}`: OS architecture (e.g. "64")
-- `{architecture_image}`: Image key of OS architecture (e.g. "64")
+- `{architecture image}`: Image key of OS architecture (e.g. "64")
 - `{icon}`: Image key of VirtualBox Icon.
 
 ## Usage
 
 Make a copy of [`config.ini.example`](config.ini.example) and remove the `.example`, then [edit it](#config) if you want.
 
-Run `presence.py`.
+Run `main.py`.
