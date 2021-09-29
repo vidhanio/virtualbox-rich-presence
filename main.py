@@ -1,3 +1,4 @@
+from __future__ import annotations
 import virtualbox, json, pprint, configparser, time, psutil, sys
 from pypresence import Presence
 
@@ -120,7 +121,7 @@ class RichPresence:
         return self.oa_operating_system, self.oa_architecture
 
     def generate_format_dict(
-        self, machine_list: list[dict], previous_format_dict: dict
+        self, machine_list: tuple[dict], previous_format_dict: dict
     ):
 
         # Store previous start time and remove it from the dictionary, to help with
