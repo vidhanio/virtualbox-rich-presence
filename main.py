@@ -27,7 +27,7 @@ class RichPresence:
             if (
                 "VirtualBox.exe" in (p.name() for p in psutil.process_iter())
                 or "VirtualBoxVM.exe" in (p.name() for p in psutil.process_iter())
-            ) and (sys.platform.startswith("win32")):
+            ):
 
                 # Generate the list of machines.
                 self.machine_list = self.generate_machine_list()
@@ -55,15 +55,9 @@ class RichPresence:
                 print("--------------------")
 
             # Stop updating the Rich Presence if VirtualBox is not running.
-            elif sys.platform.startswith("win32"):
-
+            else:
                 print("VirtualBox is not running")
                 self.RPC.clear()
-
-            # Exit the program if the user is not on Windows.
-            else:
-                print("Sorry, your platform is not supported.")
-                exit()
 
             time.sleep(15)
 
