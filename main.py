@@ -136,6 +136,7 @@ class RichPresence:
                 format_dict["machine active"] = True
 
                 # Fill the rest of the formatting dictionary with information from the machine dictionary.
+                format_dict["machine name"] = machine["name"]
                 format_dict["os name"] = machine["os"]
                 format_dict["os version"] = machine["os version"]
                 format_dict["os version name"] = self.assets["operating systems"][

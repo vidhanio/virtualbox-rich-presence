@@ -34,10 +34,11 @@ pip install -r requirements.txt
 
 ## Config
 
-The [config](config.ini.example) allows you to change what is displayed on your rich presence.
+The [config](config.example.ini) allows you to change what is displayed on your rich presence.
 
 ### Available Values
 
+- `{machine name}`: Name of the machine in VirtualBox (e.g. "My Windows Machine")
 - `{os name}`: Name of OS. (e.g. "Microsoft Windows")
 - `{os version name}`: Name of OS version. (e.g. "Windows 8")
 - `{os version image}`: Image key of OS version. (e.g. "windows_8")
@@ -47,6 +48,6 @@ The [config](config.ini.example) allows you to change what is displayed on your 
 
 ## Usage
 
-Make a copy of [`config.ini.example`](config.ini.example) and remove the `.example`, then [edit it](#config) if you want.
+Make a copy of [`config.example.ini`](config.example.ini) and remove the `.example`, then [edit it](#config) if you want.
 
 Run `main.py`.
