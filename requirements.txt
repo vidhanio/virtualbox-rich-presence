@@ -1,3 +1,4 @@
 virtualbox
 pypresence
 psutil
+pywin32
