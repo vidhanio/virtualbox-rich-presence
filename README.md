@@ -7,7 +7,7 @@
 First, clone the repository.
 
 ```cmd
-git clone https://www.github.com/vidhanlol/virtualbox-rich-presence
+git clone https://www.github.com/vidhanio/virtualbox-rich-presence
 ```
 
 Then go to the [VirtualBox downloads page](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox SDK.
