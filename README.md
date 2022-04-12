@@ -2,6 +2,10 @@
 
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
+## Notice
+
+This project is effectively unmaintanable for me as my new computer has no support for the API used in this project. I may still be able to help with simple issues such as config problems, but any technical reasons it may not be working are hard for me to debug.
+
 ## Installation
 
 First, clone the repository.
